@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=59.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurosnap-ptm-predictor"
+version = "0.0.0"
+authors = [
+  {name="Keaun Amani"},
+]
+description = "Neurosnap pTM predictor model."
+license = {file = "LICENSE.md"}
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://neurosnap.ai/"
+Issues = "https://neurosnap.ai/"
+
+[tool.ruff]
+line-length = 150
+indent-width = 2
